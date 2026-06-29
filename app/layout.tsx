@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     title: "Wu-Tang Name Generator — What's Your Rap Name?",
     description: "Find out your Wu-Tang Clan alias instantly. Free rap name generator.",
   },
+  verification: {
+    google: '76BtuPWapEs7YKz4n_-PAXK_31eyF1SGsayZYBetFMg',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
