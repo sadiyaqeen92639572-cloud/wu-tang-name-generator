@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Wu-Tang Name Generator
 
-# Run and deploy your AI Studio app
+**[→ Get Your Wu-Tang Name](https://sadiyaqeen92639572-cloud.github.io/wu-tang-name-generator/)**
 
-This contains everything you need to run your app locally.
+Free Wu-Tang Clan name generator. Enter your real name and get your official Wu-Tang alter ego — the same style used by RZA, GZA, Method Man, Raekwon, Ghostface Killah, and the rest of the Clan.
 
-View your app in AI Studio: https://ai.studio/apps/27465bf6-a9a9-4aa7-9e41-84e014914352
+## What It Does
 
-## Run Locally
+- Enter your first and last name
+- Get an instant Wu-Tang name generated from the classic Wu-Tang Name Generator algorithm
+- Share your result or generate again
 
-**Prerequisites:**  Node.js
+## How the Algorithm Works
 
+The Wu-Tang name generator uses a syllable-based substitution system — each part of your name maps to a Wu-Tang-approved word from the Clan's established lexicon of slang, martial arts terms, and Five-Percenter vocabulary. The result sounds authentic because it follows the same naming conventions as the original members.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Stack
+
+- Next.js 15 App Router + TypeScript + Tailwind CSS
+- Deployed via GitHub Actions → GitHub Pages
+- 100% static — no API calls, pure dictionary lookup
+
+## Live Site
+
+**[sadiyaqeen92639572-cloud.github.io/wu-tang-name-generator/](https://sadiyaqeen92639572-cloud.github.io/wu-tang-name-generator/)**
