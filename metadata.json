@@ -1,0 +1,6 @@
+{
+  "name": "Wu-Tang Name Generator",
+  "description": "Free Wu-Tang Clan rap name generator. Enter your name and get your unique hip-hop alias instantly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
